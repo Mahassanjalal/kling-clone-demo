@@ -37,7 +37,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
                 </div>
                 <div class="info-content">
                   <h4>Email</h4>
-                  <p>support@klingai.com</p>
+                  <p>support{{'@'}}klingai.com</p>
                 </div>
               </div>
               

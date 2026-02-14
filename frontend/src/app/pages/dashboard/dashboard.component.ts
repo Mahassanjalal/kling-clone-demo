@@ -28,7 +28,7 @@ import { trigger, transition, style, animate, query, stagger } from '@angular/an
         <!-- Welcome Section -->
         <div class="welcome-section">
           <div class="welcome-text">
-            <h1>Welcome back, {{ currentUser?.name?.split(' ')[0] }}! 👋</h1>
+            <!-- <h1>Welcome back, {{ currentUser?.name?.split(' ')[0] }}! 👋</h1> -->
             <p>Here's what's happening with your videos</p>
           </div>
           <div class="welcome-actions">

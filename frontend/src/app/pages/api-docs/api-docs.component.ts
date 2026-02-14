@@ -52,13 +52,13 @@ import { trigger, transition, style, animate } from '@angular/animations';
 
               <h4>Request Body</h4>
               <div class="code-block">
-                <pre>{
+                <pre>{{ '{' }}
   "prompt": "A sunset over mountains",
-  "settings": {
+  "settings": {{ '{' }}
     "duration": 10,
     "resolution": "1080p"
-  }
-}</pre>
+  {{ '}' }}
+{{ '}' }}</pre>
               </div>
             </section>
 
